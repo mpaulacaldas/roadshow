@@ -1,0 +1,6 @@
+[submodule "golem-workshop"]
+	path = golem-workshop
+	url = https://github.com/ThinkR-open/golem-workshop.git
+[submodule "immunotherapy"]
+	path = immunotherapy
+	url = https://github.com/sol-eng/immunotherapy.git
