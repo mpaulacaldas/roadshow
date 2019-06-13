@@ -7,8 +7,9 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    shiny, 
-    golem
+    shiny,
+    golem,
+    pkgload
 Remotes: 
     Thinkr-open/golem
 RoxygenNote: 6.1.1
