@@ -10,3 +10,4 @@ golem::document_and_reload()
 
 # Run the application
 golemcito::run_app()
+
