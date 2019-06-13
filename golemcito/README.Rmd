@@ -32,7 +32,7 @@ install.packages("golemcito")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```r
 library(golemcito)
 ## basic example code
 ```
