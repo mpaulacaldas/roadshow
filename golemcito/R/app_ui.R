@@ -3,20 +3,21 @@ app_ui <- function() {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
-    # List the first level UI elements here 
+    # List the first level UI elements here
     fluidPage(
-      h1("golemcito")
+      h1("golemcito"),
+      h2("Un golem chiquitito")
     )
   )
 }
 
 #' @import shiny
 golem_add_external_resources <- function(){
-  
+
   addResourcePath(
     'www', system.file('app/www', package = 'golemcito')
   )
- 
+
   tags$head(
     golem::js(),
     golem::favicon()
