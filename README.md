@@ -27,6 +27,8 @@ Questions for another time:
 - What are the main {golem} options that I can set up in my `.Renviron` or `.Rprofile`? 
 - Now that I think of it, I think that they did not fully understand my question. Why is the default `use_data_raw()` and not `use_data()`? I get that we can keep treatment scripts in `data-raw/`, but I prefer to have clean, R readable data in `data/`. Is there a particular reason why `data/` is not supported?
 
+An example of a golem project, similar to the one we did in the workshop, can be found in [golemcito](golemcito/).
+
 ## Workshop: Deploying TensorFlow models and APIs to Production, Andrie de Vries from RStudio
 
 Github: https://github.com/sol-eng/immunotherapy
